@@ -1,7 +1,3 @@
-## Writeup 
-
----
-
 **Advanced Lane Finding Project**
 
 The goals / steps of this project are the following:
@@ -144,5 +140,3 @@ This pipeline works well for the good quality image/video. For a more robust sys
 * Apply preprocessing to get a better quality image
 * Improve the thresholding method for a better binary image. This will make poly fitting more accurate
 * Modify the current fitting method (i.e. the search around method), check the fitting result, if not good (how to measure this?), don't use the fitting parameter from previous and do a clean search like the single image does.
-
-I live in Boston. The lane may not be visible in the winter, since the lane may be covered by snow or ice. As a human, I guess where the lane is by the width of the road and other cars position. I wonder how algorithms do that.
